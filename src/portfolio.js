@@ -298,24 +298,24 @@ const certifications = {
       alt_name: "Hero Vired",
       color_code: "#000000",
     },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
+    {
+      title: "Linux Administration",
+      subtitle: "- Harika Infotech",
+      logo_path: "harika_infotech.jpeg",
+      certificate_link:
+        "https://drive.google.com/file/d/19x5fsqj_rH2Fpe4BLnNqY5OaUUzzheks/view?usp=sharing",
+      alt_name: "Harika Infotech",
+      color_code: "#fff",
+    },
+    {
+      title: "IT Essentials",
+      subtitle: "- Cisco Networking Academy",
+      logo_path: "cisco.png",
+      certificate_link:
+        "https://drive.google.com/file/d/19gTHlgnEzVd32gwRv7PxT4ZzKL3j7Fpo/view?usp=sharing",
+      alt_name: "Cisco Networking Academy",
+      color_code: "#fff",
+    },
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
