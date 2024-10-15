@@ -294,7 +294,7 @@ const certifications = {
       subtitle: "- Hero Vired",
       logo_path: "vired.jpg",
       certificate_link:
-        "https://herovired.certificate.givemycertificate.com/c/efd6a38f-1446-4d03-bbeb-45ac6e3420e4",
+        "https://drive.google.com/file/d/1z8cNds1jHv2Akbb-lNO8FZuTM7DAKi7Z/view?usp=sharing",
       alt_name: "Hero Vired",
       color_code: "#000000",
     },
