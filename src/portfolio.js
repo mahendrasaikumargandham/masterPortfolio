@@ -21,7 +21,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/18HuO16sg1K-ce2npoPie0TDK4lJlCFto/view?usp=sharing",
+    "https://drive.google.com/file/d/1y5NppF1kxn6P3CS5pSzVZvJNp8eKBaTn/view?usp=sharing",
   portfolio_repository: "https://wa.link/0w5pk2",
   githubProfile: "https://github.com/mahendrasaikumargandham",
 };
