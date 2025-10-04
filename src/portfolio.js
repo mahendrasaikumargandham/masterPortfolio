@@ -1,11 +1,11 @@
 const settings = {
-  isSplash: true, 
+  isSplash: true,
 };
 
 const seo = {
   title: "Mahendra's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software Engineer building sustainable, scalable systems for social and technical impact.",
   og: {
     title: "Mahendra Gandham Portfolio",
     type: "website",
@@ -17,9 +17,9 @@ const seo = {
 const greeting = {
   title: "Mahendra Gandham",
   logo_name: "MahendraGandham",
-  nickname: "Software Developer",
+  nickname: "Software Development Engineer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software Engineer building sustainable, scalable systems for social and technical impact.",
   resumeLink:
     "https://drive.google.com/file/d/1y5NppF1kxn6P3CS5pSzVZvJNp8eKBaTn/view?usp=sharing",
   portfolio_repository: "https://wa.link/0w5pk2",
@@ -163,7 +163,7 @@ const skills = {
           style: {
             color: "#CB3837",
           },
-        }
+        },
       ],
     },
     {
@@ -247,7 +247,8 @@ const competitiveSites = {
       style: {
         color: "orange",
       },
-      profileLink: "https://www.codingninjas.com/codestudio/profile/ac32f5ff-6e1b-4e45-9709-d7c0e0fe4e82",
+      profileLink:
+        "https://www.codingninjas.com/codestudio/profile/ac32f5ff-6e1b-4e45-9709-d7c0e0fe4e82",
     },
     // {
     //   siteName: "Hackerearth",
@@ -290,11 +291,38 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Microsoft Certified: Azure Administrator Associate",
+      subtitle: "- Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://learn.microsoft.com/en-gb/users/mahendragandham-7588/credentials/39884ad703b4bf2d?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+      alt_name: "Hero Vired",
+      color_code: "#ffffff",
+    },
+    {
       title: "Certification Program in Gaming and ESports",
       subtitle: "- Hero Vired",
       logo_path: "vired.jpg",
       certificate_link:
         "https://drive.google.com/file/d/1z8cNds1jHv2Akbb-lNO8FZuTM7DAKi7Z/view?usp=sharing",
+      alt_name: "Hero Vired",
+      color_code: "#000000",
+    },
+    {
+      title: "Certified SAFe® 6 Practitioner",
+      subtitle: "- SAFe®",
+      logo_path: "safe.png",
+      certificate_link:
+        "https://www.credly.com/badges/b6a4dfaf-39d5-42cc-8567-e2042b00ef68/linked_in_profile",
+      alt_name: "Hero Vired",
+      color_code: "#ffffff",
+    },
+    {
+      title: "Fundamentals of Deep Learning",
+      subtitle: "- NVIDIA",
+      logo_path: "nvidia.jpg",
+      certificate_link:
+        "https://learn.nvidia.com/certificates?id=58562dcffc724cd0a79d78f769c41be9",
       alt_name: "Hero Vired",
       color_code: "#000000",
     },
@@ -418,9 +446,9 @@ const experience = {
           company_url: "https://www.accenture.com/in-en",
           logo_path: "tiktok_logo.png",
           duration: "August 2024 - Present",
-          location: "Nagpur, India",
+          location: "Hyderabad, India",
           description:
-            "Collaborated in agile teams to deliver innovative software solutions, optimized processes through automation, and contributed to full-stack development, ensuring seamless client delivery and enhanced business performance.",
+            "As a Hexagon EAM Developer at Accenture, I build and customize enterprise asset management solutions. My work involves leveraging the platform to help clients optimize the maintenance and lifecycle of their critical assets. I have successfully delivered numerous features to enhance system functionality and meet specific business requirements. I am proficient in delivering projects within the Scaled Agile Framework (SAFe), managing our Scrum process and backlogs using Azure DevOps boards. My role involves active participation in numerous Program Increment (PI) planning events to ensure team alignment and consistent value delivery.",
           color: "#000000",
         },
       ],
@@ -438,30 +466,7 @@ const experience = {
     //       description:
     //         "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
     //       color: "#000000",
-    //     },
-    //     {
-    //       title: "Data Science Research Intern",
-    //       company: "Delhivery Pvt. Ltd.",
-    //       company_url: "https://www.delhivery.com/",
-    //       logo_path: "delhivery_logo.png",
-    //       duration: "May 2019 - Sept 2019",
-    //       location: "Gurgaon, Haryana",
-    //       description:
-    //         "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-    //       color: "#ee3c26",
-    //     },
-    //     {
-    //       title: "Data Science Intern",
-    //       company: "Intel Indexer LLC",
-    //       company_url:
-    //         "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-    //       logo_path: "intel_logo.jpg",
-    //       duration: "Nov 2018 - Dec 2018",
-    //       location: "Work From Home",
-    //       description:
-    //         "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-    //       color: "#0071C5",
-    //     },
+    //     }
     //   ],
     // },
     {
@@ -512,7 +517,6 @@ const projectsHeader = {
     "My projects leverage a diverse array of cutting-edge technologies, with a primary focus on game development. I excel at creating immersive gaming experiences using Unity, Unreal Engine, and Blender, while implementing robust gameplay mechanics through C# and C++. Additionally, I deploy these projects on cloud infrastructure, ensuring seamless access and scalability for players worldwide.",
   avatar_image_path: "projects_image.svg",
 };
-
 
 // Contact Page
 const contactPageData = {
