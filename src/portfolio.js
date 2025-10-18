@@ -17,7 +17,7 @@ const seo = {
 const greeting = {
   title: "Mahendra Gandham",
   logo_name: "MahendraGandham",
-  nickname: "Software Development Engineer",
+  nickname: "Software Developer",
   subTitle:
     "Software Engineer building sustainable, scalable systems for social and technical impact.",
   resumeLink:
