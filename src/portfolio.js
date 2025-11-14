@@ -62,6 +62,41 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Generative AI",
+      fileName: "GenerativeAI",
+      skills: [
+        "⚡ Architecting and deploying scalable, production-ready RAG systems that connect LLMs to proprietary data.",
+        "⚡ Expertise in fine-tuning, advanced prompt engineering, and deploying LLMs for high-accuracy, context-aware applications.",
+        "⚡ Deep experience with vector databases, embedding models, and building complex, low-latency generative AI pipelines.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "LangChain",
+          fontAwesomeClassname: "simple-icons:langchain",
+          style: {
+            // backgroundColor: "#fff",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "LangGraph",
+          fontAwesomeClassname: "simple-icons:langgraph",
+          style: {
+            backgroundColor: "transparent",
+            color: "#270065",
+          },
+        },
+        {
+          skillName: "Jupyter Notebook",
+          fontAwesomeClassname: "simple-icons:jupyter",
+          style: {
+            backgroundColor: "transparent",
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
       title: "Game Development",
       fileName: "CloudInfraImg",
       skills: [
