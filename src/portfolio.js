@@ -100,9 +100,9 @@ const skills = {
       title: "Game Development",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Developing highly scalable production ready games in both 3D and 2D",
-        "⚡ Experience of working with Story Based Games and Third Person Shooting",
-        "⚡ Complex quantitative design for High Graphical Games",
+        "⚡ Designing and implementing core gameplay mechanics, player controls, and engaging game loops.",
+        "⚡ Expertise in performance optimization (CPU, GPU, memory) for smooth, high-frame-rate experiences.",
+        "⚡ Proficient in full-cycle game development, from prototyping and architecture to debugging and release.",
       ],
       softwareSkills: [
         {
@@ -137,23 +137,15 @@ const skills = {
             color: "#0080cd",
           },
         },
-        {
-          skillName: "Blender",
-          fontAwesomeClassname: "simple-icons:blender",
-          style: {
-            backgroundColor: "transparent",
-            color: "#eb7700",
-          },
-        },
       ],
     },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native",
-        "⚡ Creating application backend in Node, Express",
+        "⚡ Architecting scalable, server-side applications and secure RESTful APIs with Node.js and Express.",
+        "⚡ Building dynamic, responsive, and high-performance UIs using React, React Hooks, and state management tools.",
+        "⚡ Expertise in full-stack integration, from data modeling with MongoDB (Mongoose) to building and deploying complete web solutions.",
       ],
       softwareSkills: [
         {

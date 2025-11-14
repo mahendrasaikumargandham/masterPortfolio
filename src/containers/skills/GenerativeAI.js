@@ -11,8 +11,6 @@ export default class GenerativeAI extends Component {
         viewBox="0 0 738.81995 576.27002"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         role="img"
-        artist="Katerina Limpitsouni"
-        source="https://undraw.co/"
       >
         <path
           d="M844.96867,410.38909s-17.37008,9.66141-12.37008,20.66141,76,2,76,2-5-15-14-18S844.96867,410.38909,844.96867,410.38909Z"
